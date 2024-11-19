@@ -279,6 +279,7 @@ var genericMap = map[string]interface{}{
 	"clean": path.Clean,
 	"ext":   path.Ext,
 	"isAbs": path.IsAbs,
+	"glob":  glob,
 
 	// Filepaths:
 	"osBase":  filepath.Base,
